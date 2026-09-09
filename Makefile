@@ -6,3 +6,7 @@ main.i: main.c
 
 hello.txt:
 	echo "hello world!" > hello.txt
+
+.PHONY: clean
+clean:
+	rm -f main.i hello.txt
