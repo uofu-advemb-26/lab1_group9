@@ -34,8 +34,8 @@ firmware.elf: $(OBJS)
 %.i: %.c
 	$(CPP) $< > $@
 
-# hello.txt:
-# 	echo "hello world!" > hello.txt
+hello.txt:
+	echo "hello world!" > hello.txt
 
 .PHONY: clean
 clean:
