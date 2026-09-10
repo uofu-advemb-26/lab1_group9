@@ -39,4 +39,4 @@ firmware.elf: $(OBJS)
 
 .PHONY: clean
 clean:
-	rm -f main.i hello.txt
+	rm -f main.i main.o main.s second.o firmware.elf hello.txt
